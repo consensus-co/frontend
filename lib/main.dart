@@ -17,7 +17,7 @@ class WelcomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Washer Status',
+      title: 'Consensus',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange.shade900),
         primaryColor: const Color.fromARGB(255, 193, 70, 3),
@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
     super.dispose();
   }
 
-  void _loadAccount() async {
+  /*void _loadAccount() async {
     final prefs = SharedPreferencesAsync();
     final user = await prefs.getString('username');
     if (user != null) {
@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
         MaterialPageRoute(builder: (context) => SignIn(title: "Sign In")),
       );
     }
-  }
+  }*/
 
   void _goToSignIn(bool newAccount, bool pass) {
     Navigator.push(

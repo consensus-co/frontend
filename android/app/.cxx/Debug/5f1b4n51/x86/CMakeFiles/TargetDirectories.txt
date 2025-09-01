@@ -1,0 +1,2 @@
+C:/Users/KP101Destroyer/Desktop/frontend/android/app/.cxx/Debug/5f1b4n51/x86/CMakeFiles/edit_cache.dir
+C:/Users/KP101Destroyer/Desktop/frontend/android/app/.cxx/Debug/5f1b4n51/x86/CMakeFiles/rebuild_cache.dir
